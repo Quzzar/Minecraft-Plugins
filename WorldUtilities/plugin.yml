@@ -1,0 +1,45 @@
+main: com.quzzar.server.worldutils.WorldUtilities
+name: WorldUtilities
+version: 1.0
+api-version: 1.14
+depend: [MoreItems, Multiverse-Core, CraftMeta]
+author: Quzzar
+description: A utilities plugin.
+commands:
+  roll:
+    description: Rolls a dice!
+    usage: /roll <amount> <diceType>
+  spawn:
+    description: Teleports player to spawn
+    usage: /spawn
+  coords:
+    description: Displays coords in action bar
+    usage: /coords
+  warp:
+    description: Can warps
+    usage: /warp
+  tele:
+    description: Can teleport
+    usage: /tele <player>
+permissions:
+  general.roll:
+     description: Can use /roll
+     default: true
+  general.spawn:
+     description: Can use /spawn
+     default: true
+  general.coords:
+     description: Can use /coords
+     default: true
+  helpcommands.override:
+     description: Can use default help commands
+     default: op
+  tab.viewallcommands:
+     description: Can view all commands through tab
+     default: op
+  staff.warp:
+     description: Can use warp commands
+     default: op
+  staff.teleport:
+     description: Can use tele command
+     default: op

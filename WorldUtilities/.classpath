@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/aaron/Desktop/Servers/Minecraft 1.14/Plugin Making Files/paper_1.14.jar"/>
+	<classpathentry kind="lib" path="C:/Users/aaron/Desktop/Servers/Minecraft 1.14/Dev Server/plugins/MoreItems-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/aaron/Desktop/Servers/Minecraft 1.14/Dev Server/plugins/WorldLayers-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/aaron/Desktop/Servers/Minecraft 1.14/Dev Server/plugins/CraftMeta-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/aaron/Desktop/Servers/Minecraft 1.14/Dev Server/plugins/BountifulAPI-1.6.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/aaron/Desktop/Servers/Minecraft 1.14/Dev Server/plugins/Souls-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/aaron/Desktop/Servers/Minecraft 1.14/Dev Server/plugins/Dominions-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/aaron/Desktop/Servers/Minecraft 1.14/Dev Server/plugins/AnvilAPI-0.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

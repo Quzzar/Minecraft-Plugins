@@ -1,0 +1,15 @@
+main: com.quzzar.server.moreitems.MoreItems
+name: MoreItems
+version: 1.0
+api-version: 1.14
+depend: [BetterRecipesLib, CraftMeta]
+author: Quzzar
+description: Adds more items.
+commands:
+  giveitem:
+    description: Allows you to get a custom item
+    usage: /giveitem <item_type> [amount]
+permissions:
+  give.item:
+     description: Can use /giveitem
+     default: op

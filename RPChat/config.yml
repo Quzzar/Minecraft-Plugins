@@ -1,0 +1,72 @@
+###############################################
+#  _____ ______   _____  _             _      #
+#  | ___ \| ___ \ /  __ \| |           | |    #
+#  | |_/ /| |_/ / | /  \/| |__    __ _ | |_   #
+#  |    / |  __/  | |    | '_ \  / _` || __|  #
+#  | |\ \ | |     | \__/\| | | || (_| || |_   #
+#  \_| \_|\_|      \____/|_| |_| \__,_| \__|  #
+#                                             #
+###############################################
+
+
+
+###############################################
+#               Rank Prefixes                 #
+###############################################
+
+# Use the examples below to create a rank prefix.
+# (rank prefixes are in order of least to greatest importance)
+# To give a rank prefix to a player, simply give them the permission:
+#           'rpchat.prefix.YOUR-RANK-HERE'
+#
+# For example: To give a player the Head Admin prefix, use the permission:
+#           'rpchat.prefix.HeadAdmin'
+RankPrefix:
+  Member:
+    Prefix: '&8&l(&7Member&8&l)&r'
+  Donator:
+    Prefix: '&8&l(&6Donator&8&l)&r'
+  Moderator:
+    Prefix: '&8&l(&bMod&8&l)&r'
+  Admin:
+    Prefix: '&8&l(&dAdmin&8&l)&r'
+  HeadAdmin:
+    Prefix: '&8&l(&5Head Admin&8&l)&r'
+  Owner:
+    Prefix: '&8&l(&4Owner&8&l)&r'
+
+
+###############################################
+#                 Local Chat                  #
+###############################################
+
+# Uses magical text (&k) instead of dashes for concealed messages
+UseMagicConcealment: false
+
+# Prefix for players when they talk normally (in local chat)
+NormalPrefix: ''
+# The median chat radius (in blocks)
+NormalChatRadius: 400.0
+# The extended range for concealed chat (Ex. Setting this to '0' will remove concealing text)
+NormalConcealRange: 150.0
+
+# Prefix for players when they use /shout
+ShoutPrefix: '&8&l[&7Shout&8&l]&r'
+ShoutChatRadius: 600.0
+ShoutConcealRange: 200.0
+
+# Prefix for players when they use /whisper
+WhisperPrefix: '&8&l[&7&oWhisper&8&l]&r'
+WhisperChatRadius: 50.0
+WhisperConcealRange: 25.0
+
+
+###############################################
+#                    Misc                     #
+###############################################
+
+# Enables debug messages
+DebugMode: false
+
+# Don't change this unless you know what you're doing!
+ConfigVersion: 1.0.0

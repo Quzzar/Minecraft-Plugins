@@ -1,0 +1,22 @@
+package com.quzzar.im.structures.data;
+
+public enum StructDataTag {
+
+	QUARRY_DIG_Y,
+	REMAINING_BURN_TIME,
+	
+	STARTING_STRUCT_ID,
+	STARTING_STRUCT_TAG,
+	STARTING_LOC_X,
+	STARTING_LOC_Y,
+	STARTING_LOC_Z,
+	
+	ENDING_STRUCT_ID,
+	ENDING_STRUCT_TAG,
+	ENDING_LOC_X,
+	ENDING_LOC_Y,
+	ENDING_LOC_Z,
+	
+	;
+	
+}

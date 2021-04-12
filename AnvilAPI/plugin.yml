@@ -1,0 +1,7 @@
+main: api.anvilgui.AnvilMain
+name: AnvilAPI
+version: 1.0
+api-version: 1.14
+depend: [CraftMeta]
+author: Quzzar
+description: Adds Anvil GUI

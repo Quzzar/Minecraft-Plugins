@@ -1,0 +1,42 @@
+main: com.quzzar.server.dominions.DominionsMain
+name: Dominions
+version: 1.0
+api-version: 1.14
+depend: [CraftMeta]
+author: Quzzar
+description: Dominions plugin
+commands:
+  dominions:
+    description: Main Dominions command
+    usage: /dominions
+  dominion:
+    description: Main Dominions command
+    usage: /dominion
+  d:
+    description: Main Dominions command
+    usage: /d
+  safezone:
+    description: Safezone command
+    usage: /safezone
+  neutralzone:
+    description: Neutral Zone command
+    usage: /neutralzone
+permissions:
+  dominions.commands.general:
+     description: Can use general dominions commands
+     default: true
+  dominions.claimregion:
+     description: Can claim region
+     default: op
+  dominions.commands.destroyother:
+     description: Can destroy other Dominions with /d destroy
+     default: op
+  dominions.commands.safezone:
+     description: Can use safezone commands
+     default: op
+  dominions.commands.neutralzone:
+     description: Can use neutral zone commands
+     default: op
+  dominions.zone.bypass:
+     description: Can bypass all restrictions in a zone
+     default: op

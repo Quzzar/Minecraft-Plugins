@@ -1,0 +1,14 @@
+main: com.quzzar.server.skills.Skills
+name: Skills
+version: 1.0
+api-version: 1.14
+author: Quzzar
+description: Skills plugin
+commands:
+  skills:
+    description: Shows skills of player
+    usage: /skills [player]
+permissions:
+  skills.commands.skills:
+     description: Can use skills command
+     default: op

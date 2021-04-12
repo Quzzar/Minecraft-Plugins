@@ -1,0 +1,6 @@
+main: com.quzzar.craftmeta.CraftMeta
+name: CraftMeta
+version: 1.0
+api-version: 1.14
+author: Quzzar
+description: Used to store metadata in entities, itemstacks, and inventories.

@@ -1,0 +1,6 @@
+main: com.quzzar.betterrecipes.BetterRecipesLib
+name: BetterRecipesLib
+version: 1.0
+api-version: 1.14
+author: Quzzar
+description: Adds Better Recipes

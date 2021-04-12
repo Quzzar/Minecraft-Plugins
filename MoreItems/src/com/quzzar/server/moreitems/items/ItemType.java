@@ -1,0 +1,83 @@
+package com.quzzar.server.moreitems.items;
+
+public enum ItemType
+{
+
+  NULL,
+  SECURITY_BATON, 
+  PORTABLE_CRAFTING_TABLE, 
+  
+  GRENZOS_ANGUISH, 
+  TOLSIMIRIAN_RUNE, 
+  SIVIAN_SCEPTER, 
+  
+  EXPLOSIVES_T1, 
+  EXPLOSIVES_T2, 
+  EXPLOSIVES_T3, 
+  EXPLOSIVES_TX, 
+  
+  GRANITE_SWORD, 
+  GRANITE_PICKAXE, 
+  GRANITE_AXE, 
+  GRANITE_SHOVEL, 
+  GRANITE_HOE, 
+  
+  ANDESITE_SWORD, 
+  ANDESITE_PICKAXE, 
+  ANDESITE_AXE, 
+  ANDESITE_SHOVEL, 
+  ANDESITE_HOE, 
+  
+  DIORITE_SWORD, 
+  DIORITE_PICKAXE, 
+  DIORITE_AXE, 
+  DIORITE_SHOVEL, 
+  DIORITE_HOE, 
+  
+  WAND_OF_TELEPORTATION, 
+  WAND_OF_LAST_DEATH, 
+  WAND_OF_WARPING, 
+  WAND_OF_LESSER_FIREBALLS, 
+  WAND_OF_FIREBALLS, 
+  WAND_OF_GREATER_FIREBALLS, 
+  WAND_OF_GRAND_FIREBALLS, 
+  WAND_OF_POLYMORPH, 
+  WAND_OF_TOXIC_FUMES, 
+  WAND_OF_DEADLY_FUMES, 
+  WAND_OF_LIGHTNING_BOLTS, 
+  WAND_OF_GREATER_LIGHTNING_BOLTS,
+  WAND_OF_FEASTING,
+  WAND_OF_HEALING,
+  
+  SCROLL_OF_RETURNING,
+  
+  BOTTLE_OF_APEIRON,
+  
+  GRAPPLING_HOOK_INFINITE,
+  GRAPPLING_HOOK,
+  
+  POWERED_ELYTRA,
+  ADVANCED_ELYTRA,
+  
+  UNREAD_RECIPE,
+  PLAYER_GUIDE,
+  
+  ADVANCED_BOAT,
+  
+  DROP_OF_SOUL, 
+  MOLTEN_MESH, 
+  MOLTEN_CORE;
+  
+  public static ItemType getFromName(String name) {
+	  
+	  name = name.replaceAll(" ", "_");
+	  name = name.replaceAll("'", "");
+	  for (ItemType item : values()) {
+		  if (item.name().equalsIgnoreCase(name)) {
+			  return item;
+		  }
+	  }
+	  return ItemType.NULL;
+  }
+  
+}

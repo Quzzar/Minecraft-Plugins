@@ -1,0 +1,60 @@
+main: com.quzzar.im.InnovativeMechanics
+name: InnovativeMechanics
+version: 1.0
+api-version: 1.14
+depend: [CraftMeta]
+author: Quzzar
+description: Adding Machines to Minecraft
+commands:
+  im:
+    description: Innovative Mechanics Command
+    usage: Invalid command, type /im help
+  innovativemechanics:
+    description: Innovative Mechanics Command
+    usage: Invalid command, type /im help
+permissions:
+  innomech.commands.give:
+     description: Allows spawning of items
+     default: op
+  innomech.commands.list:
+     description: Shows list of all items
+     default: op
+  innomech.commands.help:
+     description: Shows help menu
+     default: op
+  innomech.commands.book:
+     description: Gives the Book of Innovations
+     default: op
+  innomech.commands.openbook:
+     description: Automatically opens the Book of Innovations
+     default: op
+  innomech.commands.save:
+     description: Saves all plugin data
+     default: op
+  innomech.commands.forcedelete:
+     description: Deletes nearby machines
+     default: op
+  innomech.machines.interact:
+     description: Allow interaction with machines
+     default: true
+  innomech.machines.place.pipe:
+     description: Allows players to place pipes
+     default: true
+  innomech.machines.break:
+     description: Allows players to break machines
+     default: true
+  innomech.use.portable_crafting_table:
+     description: Allows players to use the Portable Crafting Table
+     default: true
+  innomech.use.recipe_viewer:
+     description: Allows players to use the Recipe Viewer
+     default: true
+  innomech.use.minichests:
+     description: Allows players to use Mini Chests
+     default: true
+  innomech.use.thedarkgateway:
+     description: Allows players to traverse the The Dark Gateway
+     default: true
+  innomech.use.wrench:
+     description: Allows players to use the Wrench
+     default: true

@@ -1,0 +1,7 @@
+main: com.quzzar.server.orecreator.OreCreator
+name: OreCreator
+version: 1.0
+api-version: 1.14
+depend: [Multiverse-Core]
+author: Quzzar
+description: OreCreator plugin

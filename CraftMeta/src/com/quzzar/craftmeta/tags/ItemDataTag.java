@@ -1,0 +1,15 @@
+package com.quzzar.craftmeta.tags;
+
+public enum ItemDataTag {
+
+	NOT_ENCHANTABLE,
+	NOT_REPAIRABLE,
+	ANCIENT_RECIPE_WARDING,
+	ANCIENT_RECIPE_CRAFTING,
+	GRAPPLING_HOOK,
+	SPECIAL_ELYTRA,
+	ADVANCED_BOAT,
+	
+	MACHINE;
+	
+}

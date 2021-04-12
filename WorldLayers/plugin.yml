@@ -1,0 +1,7 @@
+main: com.quzzar.server.worldlayers.WorldLayers
+name: WorldLayers
+version: 1.0
+api-version: 1.14
+depend: [Multiverse-Core]
+author: Quzzar
+description: WorldLayers plugin

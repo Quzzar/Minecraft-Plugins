@@ -1,0 +1,11 @@
+package com.quzzar.im.versioncontrol.global.sound;
+
+public enum GSound {
+
+	ENTITY_ZOMBIE_BREAK_WOODEN_DOOR,
+	BLOCK_METAL_PRESSURE_PLATE_CLICK_ON,
+	BLOCK_METAL_PRESSURE_PLATE_CLICK_OFF,
+	BLOCK_ENDER_CHEST_OPEN,
+	BLOCK_NOTE_BLOCK_BELL;
+	
+}

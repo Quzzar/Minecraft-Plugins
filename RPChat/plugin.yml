@@ -1,0 +1,38 @@
+main: com.quzzar.rpchat.RPChat
+name: RPChat
+version: 1.0
+api-version: 1.14
+author: Quzzar
+description: A chat plugin for RP servers.
+commands:
+  staff:
+    description: Chat in the staff channel
+    usage: /staff <message>
+  shout:
+    description: Chat visible to all players
+    usage: /shout <message>
+  s:
+    description: Chat visible to all players
+    usage: /s <message>
+  whisper:
+    description: Chat visible to a smaller range of players
+    usage: /whisper <message>
+  w:
+    description: Chat visible to a smaller range of players
+    usage: /w <message>
+  tell:
+    description: Send a player a message
+    usage: /tell <player> <message>
+permissions:
+  rpchat.staffchat:
+     description: Allows chatting in the staff channel
+     default: op
+  rpchat.whisper:
+     description: Allows usage of whisper command
+     default: true
+  rpchat.shout:
+     description: Allows usage of shout command
+     default: true
+  rpchat.tell:
+     description: Allows usage of tell command
+     default: op

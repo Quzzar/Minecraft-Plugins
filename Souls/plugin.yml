@@ -1,0 +1,66 @@
+main: com.quzzar.server.souls.Souls
+name: Souls
+version: 1.0
+api-version: 1.14
+depend: [Multiverse-Core, CraftMeta]
+author: Quzzar
+description: Souls plugin
+commands:
+  fame:
+    description: Shows fame of player
+    usage: /fame [player]
+  essence:
+    description: Shows remaining essence of player
+    usage: /essence [player]
+  setfame:
+    description: Sets fame of player
+    usage: /setfame [player] [amount]
+  setessence:
+    description: Sets essence of player
+    usage: /setessence [player] [amount]
+  givesoul:
+    description: Gives a player souls
+    usage: /givesoul [player] [amount]
+  permakill:
+    description: Kills a person's soul
+    usage: /permakill [player]
+  balance:
+    description: Used to see your account balance
+    usage: /balance
+  bal:
+    description: Used to see your account balance
+    usage: /bal
+  money:
+    description: Used to see your account balance
+    usage: /money
+  pay:
+    description: Used to pay other players
+    usage: /pay <player> <amount>
+  setmoney:
+    description: Used to set a player's money
+    usage: /setmoney <player> <amount>
+permissions:
+  general.pay:
+     description: Can use /pay
+     default: true
+  general.balance:
+     description: Can use /balance
+     default: true
+  money.set:
+     description: Can use /setmoney command
+     default: op
+  souls.commands.fame:
+     description: Can use fame command
+     default: true
+  souls.commands.essence:
+     description: Can use essence command
+     default: true
+  souls.commands.fameother:
+     description: Can use fame command on other player
+     default: op
+  souls.commands.essenceother:
+     description: Can use essence command on other player
+     default: op
+  souls.commands.permakill:
+     description: Can use permakill command
+     default: op
