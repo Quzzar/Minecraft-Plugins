@@ -136,7 +136,7 @@ Innovative Mechanics is an incredibly innovative plugin for Minecraft. It utiliz
 - **Redefining Minecraft's Possibilities**: Has changed perceptions of what's achievable in Minecraft, challenging previously understood limitations.
 
 ## Showcase Video (TODO: needs to be updated to revised version)
-[![Plugin Showcase Video](https://img.youtube.com/vi/2Pd-XVPhjVA/hqdefault.jpg)](https://www.youtube.com/embed/2Pd-XVPhjVA)
+[![Plugin Showcase Video](https://img.youtube.com/vi/2Pd-XVPhjVA/hqdefault.jpg)](https://www.youtube.com/watch?v=2Pd-XVPhjVA&t=3s)
 
 
 </details>
