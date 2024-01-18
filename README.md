@@ -138,6 +138,10 @@ Innovative Mechanics is an incredibly innovative plugin for Minecraft. It utiliz
 ## Showcase Video (TODO: needs to be updated to revised version)
 [![Plugin Showcase Video](https://img.youtube.com/vi/2Pd-XVPhjVA/hqdefault.jpg)](https://www.youtube.com/watch?v=2Pd-XVPhjVA&t=3s)
 
+## Images
+![Pipes](https://i.imgur.com/D318uEe.png "Pipes")
+![Macerator](https://i.imgur.com/SEZs9S1.png "Macerator")
+![Iron Furnace](https://i.imgur.com/wKWOrS1.png "Iron Furnace")
 
 </details>
 
